@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ContosoUniversity.Logging
+namespace KPIApp.Logging
 {
     public interface ILogger
     {

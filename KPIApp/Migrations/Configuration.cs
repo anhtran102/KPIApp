@@ -1,7 +1,7 @@
-namespace ContosoUniversity.Migrations
+namespace KPIApp.Migrations
 {
-    using ContosoUniversity.Models;
-    using ContosoUniversity.DAL;
+    using KPIApp.Models;
+    using KPIApp.DAL;
     using System;
     using System.Collections.Generic;
     using System.Data.Entity;

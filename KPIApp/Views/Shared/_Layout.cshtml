@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>@ViewBag.Title - Contoso University</title>
+    <title>@ViewBag.Title - KPIApi</title>
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
     <script type="text/javascript">
@@ -16,6 +16,7 @@
         window.appInsights=appInsights;
         appInsights.trackPageView();
     </script>
+    <link rel="shortcut icon" href="favicon.ico">
 </head>
 <body>
     <div style="min-height:50px;"></div>
@@ -30,6 +31,7 @@
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
+                    <li><span title=".icon32  .icon-white  .icon-home " class="icon32 icon-white icon-home"></span></li>
                     <li>@Html.ActionLink("Home", "Index", "Home")</li>
                     <li>@Html.ActionLink("About", "About", "Home")</li>
                     <li>@Html.ActionLink("Students", "Index", "Student")</li>
@@ -44,7 +46,7 @@
         @RenderBody()
         <hr />
         <footer>
-            <p>&copy; @DateTime.Now.Year - Contoso University</p>
+            <p>&copy; @DateTime.Now.Year - KPIApi</p>
         </footer>
     </div>
 

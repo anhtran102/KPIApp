@@ -5,10 +5,10 @@ using System.Web;
 using System.Web.Mvc;
 using System.Web.Optimization;
 using System.Web.Routing;
-using ContosoUniversity.DAL;
+using KPIApp.DAL;
 using System.Data.Entity.Infrastructure.Interception;
 
-namespace ContosoUniversity
+namespace KPIApp
 {
     public class MvcApplication : System.Web.HttpApplication
     {

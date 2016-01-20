@@ -7,9 +7,9 @@ using System.Data.SqlClient;
 using System.Diagnostics;
 using System.Reflection;
 using System.Linq;
-using ContosoUniversity.Logging;
+using KPIApp.Logging;
 
-namespace ContosoUniversity.DAL
+namespace KPIApp.DAL
 {
     public class SchoolInterceptorLogging : DbCommandInterceptor
     {

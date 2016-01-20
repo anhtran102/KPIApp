@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
-using ContosoUniversity.DAL;
-using ContosoUniversity.ViewModels;
+using KPIApp.DAL;
+using KPIApp.ViewModels;
 
 
-namespace ContosoUniversity.Controllers
+namespace KPIApp.Controllers
 {
     public class HomeController : Controller
     {

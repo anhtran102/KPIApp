@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
-using ContosoUniversity.Models;
+using KPIApp.Models;
 
-namespace ContosoUniversity.ViewModels
+namespace KPIApp.ViewModels
 {
     public class InstructorIndexData
     {

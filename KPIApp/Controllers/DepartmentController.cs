@@ -7,11 +7,11 @@ using System.Threading.Tasks;
 using System.Net;
 using System.Web;
 using System.Web.Mvc;
-using ContosoUniversity.DAL;
-using ContosoUniversity.Models;
+using KPIApp.DAL;
+using KPIApp.Models;
 using System.Data.Entity.Infrastructure;
 
-namespace ContosoUniversity.Controllers
+namespace KPIApp.Controllers
 {
     public class DepartmentController : Controller
     {

@@ -1,4 +1,4 @@
-﻿namespace ContosoUniversity.ViewModels
+﻿namespace KPIApp.ViewModels
 {
     public class AssignedCourseData
     {

@@ -2,7 +2,7 @@
 using System.Diagnostics;
 using System.Text;
 
-namespace ContosoUniversity.Logging
+namespace KPIApp.Logging
 {
     public class Logger : ILogger
     {
